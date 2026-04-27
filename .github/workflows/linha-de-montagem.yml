@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-        steps:
       - name: 1. Pegar o chassi do carro (código-fonte)
         uses: actions/checkout@v3
 
@@ -18,4 +17,3 @@ jobs:
 
       - name: 3. Estação de Teste (Controle de Qualidade)
         run: echo "Rodando os testes automatizados... Verificando se a porta abre e fecha!"
-
